@@ -101,7 +101,6 @@ function getPasswordOptions() {
 
     
 //Complete your function here...
-}
   // Conditional statement to check if password length is a number. Prompts end if this evaluates false
 if(typeof length == 'number'){
   console.log('it is!')
@@ -140,29 +139,34 @@ else {
   if(specialChar == false && specialNumber == false && lowerCase == false && upperCase == false){
     return 0
   }
-//   return passwordOptions;
+}
+}
+
+getPasswordOptions()
+
+
+// //   return getPasswordOptions;
+// // }
+
+// // Function for getting a random element from an array
+// //Complete your function here...
+
+// function firstFunction(x){
+//   var math = x * X
+//   return math
 // }
 
-// Function for getting a random element from an array
-//Complete your function here...
-
-function firstFunction(x){
-  var math = x * X
-  return math
-}
-
-var number = firstFunction(2)
-console.log(number)
+// var number = firstFunction(2)
+// console.log(number)
  
 
-// Function to generate password with user input
-function generatePassword() {
-  var options = getPasswordOptions();
+// // Function to generate password with user input
+// function generatePassword() {
+//   var options = getPasswordOptions();
 
-  var result = [];
+//   var result = [];
 
 //Complete your function here...
-}
 
 
 
